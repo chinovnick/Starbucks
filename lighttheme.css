@@ -88,3 +88,7 @@ body.light .span5, body.light .span2 {
     color: rgb(0, 0, 0);
     text-decoration: underline;
 }
+
+.light .nav-menu a{
+    color: white;
+}
