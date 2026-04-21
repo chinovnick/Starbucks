@@ -113,6 +113,9 @@ header {
     display: flex;
     flex-direction: column;
     gap: 40px;
+    
+    z-index: 3;
+    position: relative;
 }
 
 .section1_left h1 {
@@ -135,6 +138,12 @@ header {
     color: #d9d9d9e6;
     letter-spacing: -2%;
     line-height: 163%;
+}
+
+.section1_btns{
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
 }
 
 .section1_btns button:first-child {
@@ -289,6 +298,10 @@ header {
     justify-content: space-around;
     width: 100%;
     gap: 30px;
+
+    
+    z-index: 3;
+    position: relative;
 }
 
 .quality {
@@ -488,6 +501,8 @@ header {
     flex-direction: column;
     gap: 35px;
     max-width: 400px;
+    z-index: 3;
+    position: relative;
 }
 
 .section5_left h1 {
@@ -550,11 +565,13 @@ header {
 
 .section5_right {
     max-width: 500px;
+    z-index: 2;
 }
 
 .sec5 {
     margin-left: -100px;
     z-index: 3;
+    position: relative;
 }
 
 .span7 {
@@ -566,6 +583,15 @@ header {
     background: #2372498C;
     filter: blur(80px);
     box-shadow: 0px 0px 120px 60px, #35C66BBA;
+}
+
+.lines{
+    position: absolute;
+    opacity: 0.3;
+    top: 50%;
+    left: 50%;
+    transform: translate(-6%, 180%);
+    z-index: 1;
 }
 
 /****************** FIDAN ********************/
@@ -580,6 +606,8 @@ footer {
     justify-content: center;
     padding: 60px 0;
     color: #fff;
+    z-index: 2;
+    position: relative;
 }
 
 .footer_container {
@@ -844,6 +872,14 @@ footer {
 
     span {
         display: none;
+    }
+
+    .lines{
+        transform: translate(-90%, 430%);
+    }
+
+    .lines img{
+        width: 400px;
     }
 
     /*MODAL*/

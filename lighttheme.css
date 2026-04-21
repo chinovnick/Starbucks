@@ -92,3 +92,13 @@ body.light .span5, body.light .span2 {
 .light .nav-menu a{
     color: white;
 }
+
+.light .lines img    {
+  filter: brightness(0);
+}
+
+.light .section1_btns button:last-child {
+    background: none;
+    border: 1px solid  #237249;
+    color: black;
+}

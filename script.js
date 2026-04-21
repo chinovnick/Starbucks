@@ -8,6 +8,11 @@ window.addEventListener("scroll", function () {
     }
 });
 
+function bob() {
+    window.location.href = window.location.href;
+}
+
+
 //menu
 
 const menuBtn = document.getElementById("menu-button");
