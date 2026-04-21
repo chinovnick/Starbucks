@@ -72,6 +72,10 @@ body.light .span5, body.light .span2 {
     background-color: #e9e9e9;
 }
 
+.light #select2{
+    background-color: #e9e9e9;
+}
+
 .light .close_btn {
     color: black;
 }

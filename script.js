@@ -30,13 +30,26 @@ closeBtn.addEventListener("click", () => {
 //modal
 
 function selectButton() {
-  document.getElementById("select").style.display = "flex";
-  document.getElementById("overlay").style.display = "block";
+    document.getElementById("select").style.display = "flex";
+    document.getElementById("overlay").style.display = "block";
 }
 
+function selectButton2() {
+    document.getElementById("select2").style.display = "flex";
+    document.getElementById("overlay2").style.display = "block";
+    document.getElementById("select").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+
 function closeButton() {
-  document.getElementById("select").style.display = "none";
-  document.getElementById("overlay").style.display = "none";
+    document.getElementById("select").style.display = "none";
+    document.getElementById("overlay").style.display = "none";
+}
+
+function closeButton2() {
+    document.getElementById("select2").style.display = "none";
+    document.getElementById("overlay2").style.display = "none";
 }
 
 

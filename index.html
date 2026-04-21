@@ -16,7 +16,7 @@
     <header>
         <div class="header_container">
             <div class="header_inside">
-                <h1  onclick="bob()"  class="logo">StarBucks</h1>
+                <h1 onclick="bob()" class="logo">StarBucks</h1>
 
                 <div class="menu" id="header_spread">
                     <a href="#">Home</a>
@@ -80,46 +80,63 @@
                         <button>More</button>
                     </div>
 
-                    <div id="select">
-                        <div class="modal_content">
-                            <button class="close_btn    " onclick="closeButton()">✕</button>
-                            <div class="select_container">
-                                <h2>Log <b>In</b></h2>
 
-                                <div class="input_group">
-                                    <label>Full Name</label>
-                                    <input type="text">
+                    <div id="overlay">
+                        <div id="select">
+                            <div class="modal_content">
+                                <button class="close_btn    " onclick="closeButton()">✕</button>
+                                <div class="select_container">
+                                    <h2>Log <b>In</b></h2>
+
+                                    <div class="input_group">
+                                        <label>Full Name</label>
+                                        <input type="text">
+                                    </div>
+
+                                    <div class="input_group">
+                                        <label>Email</label>
+                                        <input type="email">
+                                    </div>
+
+                                    <div class="input_group">
+                                        <label>Phone number</label>
+                                        <input type="number">
+                                    </div>
+
+                                    <div class="input_group">
+                                        <label>Comment</label>
+                                        <input type="text">
+                                    </div>
+
+                                    <div class="select_button">
+                                        <button class="login" onclick="selectButton2()">Login</button>
+                                        <button class="cancel" id="cancel">Cancel</button>
+                                    </div>
+
+                                    <div class="dont_have">
+                                        <p>Don't have an account? <a href="#">Sign up here</a></p>
+                                    </div>
+
                                 </div>
-
-                                <div class="input_group">
-                                    <label>Email</label>
-                                    <input type="email">
-                                </div>
-
-                                <div class="input_group">
-                                    <label>Phone number</label>
-                                    <input type="number">
-                                </div>
-
-                                <div class="input_group">
-                                    <label>Comment</label>
-                                    <input type="text">
-                                </div>
-
-                                <div class="select_button">
-                                    <button class="login">Login</button>
-                                    <button class="cancel" id="cancel">Cancel</button>
-                                </div>
-
-                                <div class="dont_have">
-                                    <p>Don't have an account? <a href="#">Sign up here</a></p>
-                                </div>
-
                             </div>
-                        </div>
 
+                        </div>
                     </div>
 
+                    <div id="overlay2">
+                        <div id="select2">
+                            <div class="modal_content">
+                                <button class="close_btn" onclick="closeButton2()">✕</button>
+                                <div class="select_container2">
+
+                                    <h1>Logged in <b>successfully</b></h1>
+                                    <p>Thank you for your patience!</p>
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
 
                     <div class="section1_stats">
                         <div class="stats">
@@ -147,8 +164,6 @@
                     <span class="span3"></span>
                 </div>
 
-
-                <div id="overlay"></div>
             </div>
 
             <div class="section1_bottom">
