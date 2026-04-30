@@ -62,3 +62,18 @@ cancelBtn.onclick = () => {
     document.getElementById("overlay").style.display = "none";
 };
 
+
+window.addEventListener("DOMContentLoaded", function() {
+  const section11 = document.getElementById("section11");
+  section11.classList.add("visible");
+});
+
+window.addEventListener("scroll", function () {
+  const scrollY = window.scrollY;
+  const section55 = document.getElementById("section55");
+  
+  if (scrollY > 1000) 
+    section55.classList.add("visible");
+  else if (scrollY < 1000)
+    section55.classList.remove("visible");
+});
